@@ -30,3 +30,27 @@
         background-color: $white;
     }
 }
+
+.w-auto{
+    flex:auto;
+}
+
+@media(max-width:768px){
+    .smallerThan768-d-none{
+        display: none;
+    }
+
+    .width-70percent{
+        width: 73%;
+    }
+
+    
+
+    .exportButton,.saveButton{
+        width: 100%;
+    }
+
+    .material-icons-outlined {
+            font-size:17px;
+    }
+}

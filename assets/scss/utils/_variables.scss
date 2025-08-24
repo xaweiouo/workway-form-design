@@ -462,6 +462,7 @@ $theme-colors: (
     5: $spacer*1.5,
     6: $spacer*3,
     7: $spacer*5,
+    8: $spacer*0.625,
     ) !default;
   // scss-docs-end spacer-variables-maps
 
@@ -724,6 +725,8 @@ $h4-font-size: $font-size-base * 1.5 !default;
 // $h5-font-size: $font-size-base * 1.25 !default;
 $h5-font-size: $font-size-base * 1.125 !default;
 $h6-font-size: $font-size-base !default;
+$h7-font-size: $font-size-base * 1.25 !default;
+$h8-font-size: $font-size-base * 0.875 !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -733,7 +736,10 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size) !default;
+  6: $h6-font-size,
+  7: $h7-font-size,
+  8: $h8-font-size,
+  ) !default;
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
@@ -878,7 +884,8 @@ $table-variants: (
 // Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
 // scss-docs-start input-btn-variables
-$input-btn-padding-y: .375rem !default;
+// $input-btn-padding-y: .375rem !default;
+$input-btn-padding-y: .75rem !default;
 $input-btn-padding-x: .75rem !default;
 $input-btn-font-family: null !default;
 $input-btn-font-size: $font-size-base !default;
